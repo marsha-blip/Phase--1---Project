@@ -15,16 +15,18 @@
           <input
             type="text"
             id="search-input"
-            name="q"
-            placeholder="Search players, news..."
+            placeholder="Search players..."
           />
-          <button type="button" id="search-btn">Search</button>
+          <button type="submit">Go</button>
         </form>
+        <label>
+          <input type="checkbox" id="dark-mode-toggle" />
+          Dark Mode
+        </label>
       </nav>
     </header>
 
     <main>
-      
       <div class="container">
         <h2><strong>Players Names</strong></h2>
         <form id="Players-form">
@@ -43,7 +45,7 @@
         </form>
         <ul id="player-list"></ul>
       </div>
-      
+
       <section id="About Us">
         <h2>Team About</h2>
         <p>
@@ -86,6 +88,10 @@
           <img src="Images/intense_game.jpg" alt="Intense match moment" />
         </div>
       </section>
+
+      <div id="lightbox">
+        <img src="" alt="Enlarged view" />
+      </div>
     </main>
 
     <footer>
