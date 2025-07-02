@@ -1,17 +1,46 @@
 {
-  "players": [
-    { "id": 1, "name": "Brendan Mark", "position": "Guard", "number": 7 },
-    { "id": 2, "name": "David five", "position": "Forward", "number": 6 },
-    { "id": 3, "name": "Tyrone Itumo", "position": "Center", "number": 9 }
+  "team": [
+    {
+      "id": "KRS001",
+      "name": "Kenyatta Road Saints",
+      "city": "Nairobi",
+      "founded": 2015
+    }
   ],
-
-  "gallery": [
+  "bestPlayers": [
+    {
+      "id": 1,
+      "name": "Brendan Mark",
+      "position": "Guard",
+      "number": 7,
+      "isMVP": false
+    },
+    {
+      "id": 2,
+      "name": "David Five",
+      "position": "Forward",
+      "number": 6,
+      "isMVP": false
+    },
+    {
+      "id": 3,
+      "name": "Tyrone Itumo",
+      "position": "Center",
+      "number": 9,
+      "isMVP": true
+    }
+  ],
+  "teamGallery": [
     {
       "id": 1,
       "url": "Images/tyrone_diving.jpg",
       "caption": "Tyrone diving to the basket"
     },
-    { "id": 2, "url": "Images/timeout.jpg", "caption": "Time-out photo" },
+    {
+      "id": 2,
+      "url": "Images/timeout.jpg",
+      "caption": "Time‑out photo"
+    },
     {
       "id": 3,
       "url": "Images/intense_game.jpg",
@@ -19,3 +48,4 @@
     }
   ]
 }
+

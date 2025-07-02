@@ -6,23 +6,23 @@ A single-page web app built with HTML, CSS and JavaScript, fetching data from a 
 
 Project Overview
 
-Features & User Stories
+.Features & User Stories
 
-Tech Stack
+.Tech Stack
 
-Setup & Installation
+.Setup & Installation
 
-Usage
+.Usage
 
-Interactivity & Events
+.Interactivity & Events
 
-API / Mock Server
+.API / Mock Server
 
-Known Challenges
+.Known Challenges
 
-Stretch Goals
+.Stretch Goals
 
-Contributing & License
+.Contributing & License
 
 ## Project Overview
 

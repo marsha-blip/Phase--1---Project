@@ -19,12 +19,52 @@
             placeholder="Search players, news..."
           />
           <button type="button" id="search-btn">Search</button>
-          <button type="submit" id="submit-btn">Submit</button>
         </form>
       </nav>
     </header>
 
     <main>
+      
+      <div class="container">
+        <h2><strong>Players Names</strong></h2>
+        <form id="Players-form">
+          <input
+            type="text"
+            id="Players"
+            placeholder="Enter Players name"
+            required
+          />
+          <select id="Players-category">
+            <option value="Center">Center</option>
+            <option value="Forward">Forward</option>
+            <option value="Gaurd">Gaurd</option>
+          </select>
+          <button type="submit" class="btn">Add Players</button>
+        </form>
+        <ul id="player-list"></ul>
+      </div>
+      
+      <section id="About Us">
+        <h2>Team About</h2>
+        <p>
+          Kenyatta Road Saints was founded on 2019 by ambitious players who
+          wanted to make a difference in the game.They are currently located at
+          Kenyatta Road along Thika road. It's a team where you would want to be
+          since all they do is just win.Who doesn't like winning? The team has
+          proven itself in different leagues and being rated as one of the best
+          team in Kenyatta road.
+        </p>
+      </section>
+
+      <section id="Team">
+        <h2>Team Best Players</h2>
+        <ul class="player-list">
+          <li>Brendan Mark — SG (#7)</li>
+          <li>Daddy Five — PF (#6)</li>
+          <li>Tyrone Itumo— C (#9)</li>
+        </ul>
+      </section>
+
       <section id="spotlight">
         <h2>Team Spotlight</h2>
         <p>
@@ -52,6 +92,6 @@
       <p>&copy; 2025 Kenyatta Road Saints Basketball Club</p>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
